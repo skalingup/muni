@@ -1,0 +1,15 @@
+# build artifacts & large binaries (rebuilt by build.sh)
+src/muni-extract-arm64
+src/muni-extract-x86_64
+build/
+*.dmg
+*.spec
+__pycache__/
+.DS_Store
+
+# not distributed (copyrighted sample / local build helper that references a local PDF path)
+src/default.json
+src/build_content.py
+
+# full app backup copy
+Muni.app.backup/

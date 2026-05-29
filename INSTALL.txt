@@ -1,0 +1,17 @@
+Installing Muni
+===============
+
+Muni is a self-contained Mac reading app — nothing else to install.
+Works on any Mac (Apple Silicon and Intel), macOS 11 Big Sur or newer.
+
+1. Open Muni.dmg.
+2. Drag the Muni icon onto the Applications folder.
+3. Open Muni:
+   - Because Muni isn't signed with an Apple Developer certificate, macOS will
+     refuse the first normal double-click ("Apple cannot check it for malware").
+   - RELIABLE WAY: open Terminal and run this one line, then double-click Muni:
+         xattr -dr com.apple.quarantine /Applications/Muni.app
+   - OR: try to open it, then go to  System Settings ▸ Privacy & Security,
+     scroll down, and click "Open Anyway".
+
+That's it. Open a PDF (File ▸ Open PDF, or the Library) and read.
