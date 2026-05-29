@@ -2,6 +2,12 @@
 
 A calm, paginated PDF reader for macOS. Native (Swift + WebKit), fully self-contained, runs on **Apple Silicon and Intel**.
 
+[![Download Muni](https://img.shields.io/badge/⬇_Download-Muni.dmg-9a5b34?style=for-the-badge&logo=apple&logoColor=white)](https://github.com/skalingup/muni/releases/latest/download/Muni.dmg)
+&nbsp;
+[![Latest release](https://img.shields.io/github/v/release/skalingup/muni?style=for-the-badge&color=8a8475)](https://github.com/skalingup/muni/releases/latest)
+
+> **[⬇ Download the latest Muni.dmg](https://github.com/skalingup/muni/releases/latest/download/Muni.dmg)** — then drag to Applications and run `xattr -dr com.apple.quarantine /Applications/Muni.app` (see [Install](#install)).
+
 ## Features
 - Distraction-free paginated reading — sepia / gray / dark / light themes, adjustable font, size, line spacing, page width
 - **Real page numbers** mapped to the source PDF: page N shows page N's content (independent of font size), shown as `96 — 1/3`
